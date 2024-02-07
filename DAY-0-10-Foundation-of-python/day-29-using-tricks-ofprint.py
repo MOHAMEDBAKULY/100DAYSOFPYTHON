@@ -32,26 +32,26 @@ print('Hello', your_name, 'let the game begin')
 
 def word_color(word, color):
   if color == 'red':
-    print('\033[31m', word, sep="--", end="")
+    print('\033[31m', word, sep="", end="")
   elif color == 'green':
-    print('\033[32m', word, sep="--", end="")
+    print('\033[32m', word, sep="", end="")
   elif color == 'blue':
-    print('\033[34m', word, sep="--", end="")
+    print('\033[34m', word, sep="", end="")
   elif color == 'yellow':
-    print('\033[33m', word, sep="--", end="")
+    print('\033[33m', word, sep="", end="")
   elif color == 'purple':
-    print('\033[35m', word, sep="--", end="")
+    print('\033[35m', word, sep="", end="")
   elif color == 'white':
-    print('\033[37m', word, sep="--", end="")
+    print('\033[37m', word, sep="", end="")
   else:
-    print('\033[0m', word, sep="--", end="")
+    print('\033[0m', word, sep="", end="")
 
 
 user_word = input('What word do you want to print? ')
 user_color = input('What color do you want to print? ')
 print()
-print('This is the word you chose', user_word, 'and here is the color you gave it', user_color)
+print('This is the word you chose', user_word, 'and here is the color you gave it', user_color,)
 print()
 word_color(user_word, user_color)
 print()
-print(your_name, 'you are amazing, with the choice og your colors.')
+print(your_name, 'you are amazing, with the choice of your colors.')
