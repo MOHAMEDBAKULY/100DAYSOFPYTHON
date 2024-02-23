@@ -1,3 +1,18 @@
+import random
+print('Welcome to the rolling dice game')
+user_name = input("What is your name? ")
+print('Hello', user_name)
+side = int(input('How many sides do you want on your dice?:  '))
+playGame = 'yes'
+
+def roll_dice(side):
+ print(user_name,"You rolled", random.randint(1,side))
+while playGame == "yes":
+  roll_dice(side)
+  playGame = input('Do you want to roll the dice again?: ')
+
+
+
 # def whichCake(ingredient, base, coating):
 #   if ingredient == "chocolate":
 #     print("Mmm, chocolate cake is amazing")
@@ -23,16 +38,5 @@
 # topping2 = input("Name a second pizza topping. ")
 
 # pizza_order(topping1, topping2)
-import random
-print('Welcome to the rolling dice game')
-user_name = input("What is your name? ")
-print('Hello', user_name)
-side = int(input('How many sides do you want on your dice?:  '))
-playGame = 'yes'
 
-def roll_dice(side):
- print(user_name,"You rolled", random.randint(1,side))
-while playGame == "yes":
-  roll_dice(side)
-  playGame = input('Do you want to roll the dice again?: ')
     

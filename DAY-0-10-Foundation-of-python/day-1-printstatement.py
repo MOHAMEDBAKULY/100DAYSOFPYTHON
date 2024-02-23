@@ -1,6 +1,6 @@
 print("""
 Mohamed Bakuly
-January 9th 20224
+January 9th 2024
 I am singing up for Replit's 100 days of Python
 challenge!
 I will make sure to spend some time every day coding 

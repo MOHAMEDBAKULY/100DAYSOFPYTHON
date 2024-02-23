@@ -41,7 +41,7 @@ while True:
       if letter in guessed_letters:
         print(letter, end="")
       else:
-        print("_", end = "")
+        print("_", end = "")  
         right_letters = False
   print()
 

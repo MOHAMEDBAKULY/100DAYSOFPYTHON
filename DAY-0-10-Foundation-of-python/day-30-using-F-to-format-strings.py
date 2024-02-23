@@ -1,3 +1,40 @@
+import time, os
+
+print('Welcome, To the Python 30 days Quiz:')
+print()
+user_name = input('What is your name? ')
+print()
+print(f"Hello,{user_name} welcome to the survey of 30 days of Python")
+print()
+time.sleep(1)
+os.system('clear')
+yellow = "\033[33m"
+blue = "\033[34m"
+purple = "\033[35m"
+reset = "\033[0m"
+
+for quiz in range(1,31):
+  if quiz <= 10:
+    print(f"{yellow} Day {quiz: ^3} of 30{reset}")
+    print()
+  elif quiz > 10 and quiz <= 20:
+    print(f"{blue} Day {quiz: >2} of 30{reset}")
+    print()
+  else:
+    print(f"{purple} Day {quiz: >2} ")
+  print(f"Day {quiz: >2} of 30 days of code")
+  print()
+  user_opinion = input(f'How was your experience in day {quiz}:?  ')
+  print(f"{user_name} You thought Day {quiz} was {user_opinion}")
+  print()
+
+
+
+
+
+
+
+
 # name = "Bakuly"
 # age = "24"
 # pronouns = "he/him"
@@ -63,32 +100,3 @@
 # She got to the {location} and looked for a {color} umbrella where {friend} said they would be waiting. By the time, Sally found {friend}, the {food} was cold and the {location} was lame."""
 
 # print(response)
-import time, os
-
-print('Welcome, To the Python 30 days Quiz:')
-print()
-user_name = input('What is your name? ')
-print()
-print(f"Hello,{user_name} welcome to the survey of 30 days of Python")
-print()
-time.sleep(1)
-os.system('clear')
-yellow = "\033[33m"
-blue = "\033[34m"
-purple = "\033[35m"
-reset = "\033[0m"
-
-for quiz in range(1,31):
-  if quiz <= 10:
-    print(f"{yellow} Day {quiz: ^3} of 30{reset}")
-    print()
-  elif quiz > 10 and quiz <= 20:
-    print(f"{blue} Day {quiz: >2} of 30{reset}")
-    print()
-  else:
-    print(f"{purple} Day {quiz: >2} ")
-  print(f"Day {quiz: >2} of 30 days of code")
-  print()
-  user_opinion = input(f'How was your experience in day {quiz}:?  ')
-  print(f"{user_name} You thought Day {quiz} was {user_opinion}")
-  print()

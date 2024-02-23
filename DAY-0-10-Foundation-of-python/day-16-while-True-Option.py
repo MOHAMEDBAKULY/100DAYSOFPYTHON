@@ -1,3 +1,19 @@
+print('Who is the best footballer in the world')
+print('You can do a Google search or you can try to answer')
+print()
+attempts = 0
+
+while True:
+  name = input('Who is the best footballer in the world?: ')
+  ballon_dor = int( input('How many ballon dor does he have?:'))
+  attempts += 1
+  if name == 'Messi' and ballon_dor == 8:
+    print('You are right')
+    break
+  else:
+    print('You are wrong')
+    print('You had', attempts, 'attempts to get is right')
+
 # while True:
 #   print("This program is running")
 # print("Aww, I was having a good time 😭")
@@ -40,18 +56,3 @@
 #     print("Cool color!")
 # print("I don't like red")
 
-print('Who is the best footballer in the world')
-print('You can do a Google search or you can try to answer')
-print()
-attempts = 0
-
-while True:
-  name = input('Who is the best footballer in the world?: ')
-  ballon_dor = int( input('How many ballon dor does he have?:'))
-  attempts += 1
-  if name == 'Messi' and ballon_dor == 8:
-    print('You are right')
-    break
-  else:
-    print('You are wrong')
-    print('You had', attempts, 'attempts to get is right')

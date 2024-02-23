@@ -1,17 +1,21 @@
-print("Welocome to the Moke Beast Character Creator")
+print("Welcome to the Moke Beast Character Creator")
 print()
 print("Beast type should be Earth, Fire, Air, Water or Spirit to have color display")
 print()
 
-the_Moke_Beast = {}
+the_Moke_Beast = {
+  "name": None,
+  "type": None,
+  "specialMove": None,
+  "startingHP":None,
+  "startingMP": None,
+                  }
 
-for name, value in the_Moke_Beast.items():
-  the_Moke_Beast[name] = input(f"{name}: ").strip().title()
+# for name, value in the_Moke_Beast.items():
+#   the_Moke_Beast[name] = input(f"{name}: ").strip().title()
 
-for name, value in the_Moke_Beast.items():
-  print(f"{name: <10}: {value}")
-
-
+# for name, value in the_Moke_Beast.items():
+#   print(f"{name: <10}: {value}")
 
 def preetyPrint():
   for key,value in the_Moke_Beast.items():

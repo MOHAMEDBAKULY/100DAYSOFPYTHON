@@ -1,18 +1,3 @@
-# counter = 0
-# while counter < 10:
-#   print(counter)
-#   counter += 1
-
-# total = 0
-# for counter in range(10):
-#   total += counter
-#   # print(total)
-
-# for days in range(7):
-#   print("Day", days + 1)
-
-
-# Colors of the amnount
 blue = "\033[94m"
 green = "\033[93m"
 reset = "\033[0m"
@@ -33,4 +18,22 @@ for year in range(loan_duartion):
   print(your_name,"in Year", year + 1, "your loan is", round(loan_amount, 2))
   print(blue, your_name, 'You paid', round(interest, 2), 'dollars in interest in year', year + 1, reset)
   print(green, your_name, 'Total interest paid over', loan_duartion, 'years:', round(total_interest_paid, 2), reset)
+
+
+# counter = 0
+# while counter < 10:
+#   print(counter)
+#   counter += 1
+
+# total = 0
+# for counter in range(10):
+#   total += counter
+#   # print(total)
+
+# for days in range(7):
+#   print("Day", days + 1)
+
+
+# Colors of the amnount
+
   

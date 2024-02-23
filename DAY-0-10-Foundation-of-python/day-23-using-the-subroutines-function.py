@@ -1,17 +1,3 @@
-# def date_today():
-#   import random
-#   day = random.randint(1,31);
-#   print('What is the date today?', day)
-
-# for i in range(10):
-#   date_today()
-
-# def print_favorite_color():
-#  print("My favorite color is red.")
-#  name = input("What is your name?")
-#  print(name, 'Welcome to using Subroutines or Functions or defenitions in Python')
-
-# print_favorite_color()
 green = '\033[32m'
 red = '\033[31m'
 reset = '\033[0m'
@@ -32,3 +18,20 @@ def User_Login():
      
 
 User_Login()
+
+
+
+# def date_today():
+#   import random
+#   day = random.randint(1,31);
+#   print('What is the date today?', day)
+
+# for i in range(10):
+#   date_today()
+
+# def print_favorite_color():
+#  print("My favorite color is red.")
+#  name = input("What is your name?")
+#  print(name, 'Welcome to using Subroutines or Functions or defenitions in Python')
+
+# print_favorite_color()
