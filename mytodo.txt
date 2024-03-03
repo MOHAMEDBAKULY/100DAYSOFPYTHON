@@ -1,1 +1,1 @@
-[['Coding', '4Hrs', 'Everyday', 'High'], ['Training', '4Hrs', 'x3 weekly', 'High'], ['Prayers', '10min', 'Everyday', 'High'], ['Design', '3Hrs', 'Everyday', 'Medium']]
+[['Coding', '4Hrs', 'Everyday', 'High'], ['Training', '4Hrs', 'x3 weekly', 'High'], ['Prayers', '10min', 'Everyday', 'High'], ['Design', '3Hrs', 'Everyday', 'Medium'], ['Resting', '7Hrs', 'Everyday', 'High']]
