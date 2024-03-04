@@ -135,7 +135,7 @@ while True:
 
   preetyPrint()
   time.sleep(2)
-  os.system('clear')
+  # os.system('clear')
 
 
 # print(os.listdir())
