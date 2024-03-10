@@ -1,6 +1,7 @@
-from replit import db
+# from replit import db
 import datetime, time, os
 
+tweetsData = []
 
 
 print("Welcome to your personal tweets database")
@@ -10,22 +11,24 @@ timeStamp = datetime.datetime.now()
 def addTweet():
   tweet = input("What would you like to tweet? ") 
   tag = input("What tag would you like to add? ")
-  db[timeStamp] = [tweet, tag]
+  row = [timeStamp, tweet, tag]
+  tweetsData.append(row)
   print("Tweet added")
   time.sleep(1)
   os.system("clear")
 
 def viewTweets():
- matches = db.prefix("timestamp")
- matches = matches[::-1]
+#  matches = db.prefix("timestamp")
+#  matches = matches[::-1]
  option = input("""Show 10 tweets at a time
        1: yes
        2: no
        your action:>  """).lower()
  if option == "1":
-    keys = db.keys()
-    for key in keys:
-      print(f"""{key}: {db[key]}""")
+    # keys = db.keys()
+    for row in tweetsData:
+      print(row)
+      # print(f"""{key}: {db[key]}""")
  elif option == "2":
    
   time.sleep(1)
