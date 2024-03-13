@@ -32,19 +32,21 @@ class doctor(Job):
     print(f"{self.experience:<10} {self.speciality:>21}")
 
 class teacher(Job):
+    subject: None
+    position: None
 
-  def __init__(self, salary, hours, subject, position):
-    self.name = "Teacher"
-    self.salary = salary
-    self.hours = hours
-    self.subject = subject
-    self.position = position
+    def __init__(self, salary, hours, subject, position):
+     self.name = "Teacher"
+     self.salary = salary
+     self.hours = hours
+     self.subject = subject
+     self.position = position
 
-  def print(self):
-    print("=== JOB ===")
-    print()
-    print(f"{self.name:<10} {self.salary:^10} {self.hours:>10}")
-    print(f"{self.subject:<10} {self.position:>21}")
+    def print(self):
+     print("=== JOB ===")
+     print()
+     print(f"{self.name:<10} {self.salary:^10} {self.hours:>10}")
+     print(f"{self.subject:<10} {self.position:>21}")
 
 lawyer = Job("Lawyer", "$100,000", "40")
 lawyer.print()
