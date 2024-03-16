@@ -29,9 +29,13 @@ button.pack()
 canvas = tk.Canvas(window, width=400, height=380)
 canvas.pack()
 charlotte = ImageTk.PhotoImage(Image.open("guessWho/charlotte.jpg"))
+
 gerald = ImageTk.PhotoImage(Image.open("guessWho/gerald.jpg"))
+
 katie = ImageTk.PhotoImage(Image.open("guessWho/katie.jpg"))
+
 mo = ImageTk.PhotoImage(Image.open("guessWho/mo.jpg"))
+
 container = canvas.create_image(150,1,image=mo)
 
 tk.mainloop()
