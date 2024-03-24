@@ -1,4 +1,4 @@
-from flask import Flask
+from my_flask_file import Flask
 import datetime
 
 app = Flask(__name__, static_url_path="/static")
