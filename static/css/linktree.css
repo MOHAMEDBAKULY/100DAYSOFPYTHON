@@ -1,0 +1,41 @@
+* {
+    margin:0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: #cc9f02;
+    color:#fefee8;
+
+  }
+
+  h3{
+    text-align: center;
+    font-size: 56px;
+    margin-bottom: 4px;
+  }
+
+  div, p{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  p{
+    font-size: 38px;
+    color:#432605;
+    font-weight: semi-bold;
+  }
+
+  img{
+    width:120px;
+    height:120px;
+    border-radius:100px;
+    margin-bottom: 2px;
+  }
+
+  h6{
+    font-size: 28px;
+    color:#f8eedd;
+    text-align: center;
+  }
